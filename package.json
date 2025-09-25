@@ -1,6 +1,6 @@
 {
   "name": "neo-marquee",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Replacement for deprecated <marquee>",
   "keywords": [
     "html",
