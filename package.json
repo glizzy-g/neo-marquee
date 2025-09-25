@@ -1,0 +1,24 @@
+{
+  "name": "neo-marquee",
+  "version": "1.0.0",
+  "description": "Replacement for deprecated <marquee>",
+  "keywords": [
+    "html",
+    "javascript"
+  ],
+  "homepage": "https://github.com/glizzy-g/neo-marquee#readme",
+  "bugs": {
+    "url": "https://github.com/glizzy-g/neo-marquee/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/glizzy-g/neo-marquee.git"
+  },
+  "license": "GPL-3.0-or-later",
+  "author": "Glizzy G",
+  "type": "module",
+  "main": "neo-marquee.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
