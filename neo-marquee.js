@@ -79,8 +79,8 @@ class NeoMarquee extends HTMLElement {
         // Reset scroll position after disappearing.
         // This should work fine with long freeze times (i.e. put the scroll in the expected position as if it were running smoothly)
         if (this.scrollPosition < 0 - this.display.offsetWidth) {
-            this.dispatchEvent(this.onoverflow);
             this.scrollPosition = this.bezel.offsetWidth + ((this.scrollPosition + this.display.offsetWidth) % this.bezel.offsetWidth);
+            this.dispatchEvent(this.onoverflow);
         }
 
         // Update actual scroll position
